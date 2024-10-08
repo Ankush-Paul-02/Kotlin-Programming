@@ -9,4 +9,12 @@ fun main() {
     // age = 24  // 'val' cannot be reassigned.
 
     println("Hello $name, $age")
+
+    val maxIntegerValue: Int = Int.MAX_VALUE
+    println(maxIntegerValue)
+
+    val maxLongValue: Long = Long.MAX_VALUE
+    println(maxLongValue)
+    val maxDoubleValue: Double = Double.MAX_VALUE
+    println(maxDoubleValue)
 }
